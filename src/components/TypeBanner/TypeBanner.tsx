@@ -13,7 +13,7 @@ const TypeBanner = () => {
       <h2 className="text-main-light-textcolor text-center text-xl">
         Search the type property which suits for you
       </h2>
-      <div className="type-banner-content w-full mx-3 lg:mx-20 grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-5 mt-10 ">
+      <div className="type-banner-content w-full justify-center mx-24 grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-5 mt-10 ">
         <div
           className="grid-item-1 bg-cover h-[300px] bg-no-repeat flex items-end rounded-md w-[300px] md:w-[300px] shadow-2xl"
           style={{ backgroundImage: `url(${appartment})` }}
