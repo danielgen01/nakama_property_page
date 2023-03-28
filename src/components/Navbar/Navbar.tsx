@@ -1,6 +1,6 @@
 import React from "react"
 import Logo from "../../assets/Logo.png"
-import {CiMenuFries} from "react-icons/ci"
+import { CiMenuFries } from "react-icons/ci"
 
 const Navbar: React.FC = () => {
   return (
@@ -22,11 +22,15 @@ const Navbar: React.FC = () => {
             <a href="#">Properties</a>
           </div>
           <div className="buttons  gap-10 hidden lg:flex">
-            <button className="px-5 py-2 rounded-md bg-[#EAEAEA] text-main-dark-blue font-medium">About</button>
-            <button className="px-5 py-2 rounded-md bg-main-dark-blue text-white font-medium">Contact us</button>
+            <button className="px-5 py-2 rounded-md bg-[#EAEAEA] text-main-dark-blue font-medium">
+              About
+            </button>
+            <button className="px-5 py-2 rounded-md bg-main-dark-blue text-white font-medium">
+              Contact us
+            </button>
           </div>
           <div className="touch-menu-icon flex lg:hidden">
-            <CiMenuFries className="text-3xl cursor-pointer"/>
+            <CiMenuFries className="text-3xl cursor-pointer" />
           </div>
         </div>
       </div>
