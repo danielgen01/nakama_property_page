@@ -3,7 +3,7 @@ import Benefits_pic from "../../assets/Benefits_pic.png"
 
 const BenefitsBanner = () => {
   return (
-    <div className="benefits-banner h-[400px] mt-10">
+    <div className="benefits-banner mt-10 w-screen">
       <div className="banner-content grid grid-cols-1 md:grid-cols-2 mx-10 gap-5">
         <div className="picture-ctn flex justify-center order-2 md:order-1">
           <img src={Benefits_pic} alt="" className="" />
@@ -17,7 +17,7 @@ const BenefitsBanner = () => {
               1
             </div>
             <p className="text-sm md:text-md lg:text-xl text-main-light-blue font-bold">
-              We are not asking for any free 
+              We are not asking for any free
             </p>
           </div>
 
@@ -26,7 +26,8 @@ const BenefitsBanner = () => {
               2
             </div>
             <p className="text-sm md:text-md lg:text-xl text-main-light-blue font-bold">
-              We take care for every single thing that the buyer need to complete
+              We take care for every single thing that the buyer need to
+              complete
             </p>
           </div>
 
@@ -35,7 +36,7 @@ const BenefitsBanner = () => {
               3
             </div>
             <p className="text-sm md:text-md lg:text-xl text-main-light-blue font-bold">
-              We help landlord to register their license to government 
+              We help landlord to register their license to government
             </p>
           </div>
 
@@ -44,7 +45,8 @@ const BenefitsBanner = () => {
               4
             </div>
             <p className="text-sm md:text-md lg:text-xl text-main-light-blue font-bold">
-             We help the buyers to find the place without stress and help them with paperwork
+              We help the buyers to find the place without stress and help them
+              with paperwork
             </p>
           </div>
         </div>
