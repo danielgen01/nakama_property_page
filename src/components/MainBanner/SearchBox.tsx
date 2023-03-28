@@ -3,7 +3,7 @@ import React from "react";
 const SearchBox:React.FC = () => {
   return (
     <>
-    <div className="search-box lg:w-[750px] bg-white rounded-md lg:-mr-96 xl:-mr-56 -mb-72 lg:-mb-0 z-50 py-6">
+    <div className="search-box  w-80 lg:w-[750px] bg-white rounded-md lg:-mr-96 xl:-mr-56 -mb-72 lg:-mb-0 z-50 py-6">
         <div className="box-content grid grid-cols-2 lg:grid-cols-4 mx-3 gap-5">
             <div className="grid-item-1 flex justify-between flex-col">
                 <h4 className="text-main-light-blue font-bold">Location</h4>

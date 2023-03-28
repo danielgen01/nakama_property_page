@@ -8,5 +8,6 @@ body{
   padding: 0;
   font-family: "Quicksand";
   overflow-x: hidden !important;
+  max-width: screen;
 }
 
