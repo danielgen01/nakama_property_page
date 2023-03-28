@@ -9,7 +9,7 @@ const BenefitsBanner = () => {
           <img src={Benefits_pic} alt="" className="" />
         </div>
         <div className="benefits-list flex flex-col items-start lg:justify-center order-1 md:order-2">
-          <h1 className="text-main-dark-blue text-xl font-bold lg:text-3xl">
+          <h1 className="text-main-dark-blue text-xl font-bold lg:text-3xl text-center">
             Why we suit for you
           </h1>
           <div className="benefit-1-ctn flex mt-5 gap-5">
