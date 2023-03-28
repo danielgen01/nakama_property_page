@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
           <div className="nav-links  gap-10 text-main-light-textcolor font-regular text-xl hidden lg:flex">
             <a
               href="#"
-              className="text-main-dark-blue underline underline-offset-4 decoration-main-dark-blue"
+              className="text-main-dark-blue underline underline-offset-4 decoration-main-dark-blue font-bold"
             >
               Home
             </a>
@@ -22,10 +22,10 @@ const Navbar: React.FC = () => {
             <a href="#">Properties</a>
           </div>
           <div className="buttons  gap-10 hidden lg:flex">
-            <button className="px-5 py-2 rounded-md bg-[#EAEAEA] text-main-dark-blue font-medium">
+            <button className="px-5 py-2 rounded-md bg-[#EAEAEA] text-main-dark-blue font-bold">
               About
             </button>
-            <button className="px-5 py-2 rounded-md bg-main-dark-blue text-white font-medium">
+            <button className="px-5 py-2 rounded-md bg-main-dark-blue text-white font-bold">
               Contact us
             </button>
           </div>
