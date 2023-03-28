@@ -4,6 +4,7 @@ import MainBanner from '../MainBanner/MainBanner'
 import BenefitsBanner from '../BenefitsBanner/BenefitsBanner'
 import TypeBanner from '../TypeBanner/TypeBanner'
 import PropertyBanner from '../PropertyBanner/PropertyBanner'
+import ContactBanner from '../ContactBanner/ContactBanner'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
    <BenefitsBanner />
    <TypeBanner />
    <PropertyBanner />
+   <ContactBanner />
    </div>
    
    </>)

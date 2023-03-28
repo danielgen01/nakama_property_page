@@ -8,7 +8,7 @@ import property6 from "../../assets/property_6.png"
 
 const PropertyBanner = () => {
   return (
-    <div className="property-banner-ctn h-[700px] mt-52 w-screen ">
+    <div className="property-banner-ctn mt-52 w-screen ">
       <div className="headline flex justify-between lg:mx-52">
         <h1 className="font-bold text-main-dark-blue text-xl lg:text-4xl">
           Popular properties
