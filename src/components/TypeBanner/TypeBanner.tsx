@@ -6,7 +6,7 @@ import residential from "../../assets/residential.png"
 
 const TypeBanner = () => {
   return (
-    <div className="type-banner mt-10 w-screen ">
+    <div className="type-banner mt-10 w-screen">
       <h1 className="text-main-dark-blue font-bold text-center text-2xl">
         Find your Type properties
       </h1>
