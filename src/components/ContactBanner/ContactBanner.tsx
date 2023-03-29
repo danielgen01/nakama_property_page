@@ -5,7 +5,7 @@ import Formbox from "./Formbox"
 const ContactBanner = () => {
   return (
     <div
-      className="contact-banner h-[700px] bg-no-repeat bg-cover mt-10"
+      className="contact-banner h-[700px] bg-no-repeat bg-cover mt-10 w-screen"
       style={{ backgroundImage: `url(${background})` }}
     >
       <div className="transparent-background w-screen h-full bg-black/30">
