@@ -7,14 +7,14 @@ const Formbox = () => {
         <h3 className="text-main-light-blue font-bold mt-5 text-xl">
           What do you want to know... ?
         </h3>
-        <div className="input-fields flex flex-col gap-5">
+        <div className="input-fields flex flex-col gap-5 w-3/4 lg:w-1/2">
           <input
             type="text"
-            className="bg-gray-300 py-3 lg:px-52 w-full rounded-md text-center"
+            className="bg-gray-300 py-3  w-full rounded-md text-center"
             placeholder="Your Email Adress"
           />
           <textarea
-            className="bg-gray-300 py-10 w-full px-10  lg:px-52 rounded-md text-center resize-none"
+            className="bg-gray-300 py-10 w-full    rounded-md text-center resize-none"
             placeholder="Your question"
           />
         </div>
