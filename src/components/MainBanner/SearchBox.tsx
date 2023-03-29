@@ -7,7 +7,7 @@ const SearchBox:React.FC = () => {
         <div className="box-content grid grid-cols-2 lg:grid-cols-4 mx-3 gap-5">
             <div className="grid-item-1 flex justify-between flex-col">
                 <h4 className="text-main-light-blue font-bold">Location</h4>
-                <input type="text" defaultValue={"Hamburg,Germany"} className="bg-[#E2E2E2] rounded-md text-center py-2" />
+                <input type="text" defaultValue={"Hamburg,GER"} className="bg-[#E2E2E2] rounded-md text-center py-2" />
                     </div>
 
             <div className="grid-item-2 flex justify-between flex-col">
