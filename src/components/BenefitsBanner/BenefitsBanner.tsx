@@ -3,7 +3,7 @@ import Benefits_pic from "../../assets/Benefits_pic.png"
 
 const BenefitsBanner = () => {
   return (
-    <div className="benefits-banner mt-10 w-screen">
+    <div className="benefits-banner mt-10 w-screen mx-2">
       <div className="banner-content grid grid-cols-1 place-items-center md:grid-cols-2  gap-5">
         <div className="picture-ctn  justify-center order-2 md:order-1 hidden md:flex ">
           <img src={Benefits_pic} alt="" className="" />
