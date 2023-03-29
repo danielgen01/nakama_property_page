@@ -17,15 +17,15 @@ const Navbar: React.FC = () => {
             >
               Home
             </a>
-            <a href="#">Why Us</a>
-            <a href="#">Type</a>
-            <a href="#">Properties</a>
+            <a href="#" className="hover:text-main-dark-blue hover:font-bold duration-200">Why Us</a>
+            <a href="#" className="hover:text-main-dark-blue hover:font-bold duration-200">Type</a>
+            <a href="#" className="hover:text-main-dark-blue hover:font-bold duration-200">Properties</a>
           </div>
           <div className="buttons  gap-10 hidden lg:flex">
-            <button className="px-5 py-2 rounded-md bg-[#EAEAEA] text-main-dark-blue font-bold">
+            <button className="px-5 py-2 rounded-md bg-[#EAEAEA] text-main-dark-blue font-bold hover:opacity-90">
               About
             </button>
-            <button className="px-5 py-2 rounded-md bg-main-dark-blue text-white font-bold">
+            <button className="px-5 py-2 rounded-md bg-main-dark-blue text-white font-bold hover:opacity-90">
               Contact us
             </button>
           </div>
