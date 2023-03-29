@@ -9,14 +9,14 @@ import property6 from "../../assets/property_6.png"
 const PropertyBanner = () => {
   return (
     <div className="property-banner-ctn mt-52 w-screen ">
-      <div className="headline flex justify-between lg:mx-52">
+      <div className="headline flex justify-between lg:mx-52 mx-10">
         <h1 className="font-bold text-main-dark-blue text-xl lg:text-4xl">
           Popular properties
         </h1>
         <button className="text-main-light-blue font-bold">View All</button>
       </div>
-      <div className="grid-net grid grid-cols-2 lg:grid-cols-3 gap-1 place-items-center mt-10">
-        <div className="grid-item-1 h-[300px]   shadow-lg flex flex-col gap-2 rounded-md">
+      <div className="grid-net grid grid-cols-2 lg:grid-cols-3  place-items-center mt-10  mx-10 gap-y-5 gap-x-5">
+        <div className="grid-item-1 h-[300px]  shadow-lg flex flex-col gap-2 rounded-md justify-between">
           <img src={property1} alt="" className="max-h-[200px]" />
           <h3 className="font-bold text-xl text-main-dark-blue mx-2">
             500.000€
@@ -26,7 +26,7 @@ const PropertyBanner = () => {
           </button>
         </div>
 
-        <div className="grid-item-1 h-[300px]   shadow-lg flex flex-col gap-2 rounded-md">
+        <div className="grid-item-2 h-[300px]   shadow-lg flex flex-col gap-2 rounded-md justify-between">
           <img src={property2} alt="" className="max-h-[200px]"/>
           <h3 className="font-bold text-xl text-main-dark-blue mx-2">
             400.000€
@@ -36,7 +36,7 @@ const PropertyBanner = () => {
           </button>
         </div>
 
-        <div className="grid-item-1 h-[300px]   shadow-lg flex flex-col gap-2 rounded-md">
+        <div className="grid-item-3 h-[300px]   shadow-lg flex flex-col gap-2 rounded-md justify-between">
           <img src={property3} alt="" className="max-h-[200px]"/>
           <h3 className="font-bold text-xl text-main-dark-blue mx-2">
             250.000€
@@ -46,7 +46,7 @@ const PropertyBanner = () => {
           </button>
         </div>
 
-        <div className="grid-item-1 h-[300px]   shadow-lg flex flex-col gap-2 rounded-md">
+        <div className="grid-item-4 h-[300px]   shadow-lg flex flex-col gap-2 rounded-md justify-between">
           <img src={property4} alt="" className="max-h-[200px]"/>
           <h3 className="font-bold text-xl text-main-dark-blue mx-2">
             1.000.000€
@@ -56,7 +56,7 @@ const PropertyBanner = () => {
           </button>
         </div>
 
-        <div className="grid-item-1 h-[300px]   shadow-lg flex flex-col gap-2 rounded-md">
+        <div className="grid-item-5 h-[300px]   shadow-lg flex flex-col gap-2 rounded-md justify-between">
           <img src={property5} alt="" className="max-h-[200px]"/>
           <h3 className="font-bold text-xl text-main-dark-blue mx-2">
             520.000€
@@ -66,7 +66,7 @@ const PropertyBanner = () => {
           </button>
         </div>
 
-        <div className="grid-item-1 h-[300px]   shadow-lg flex flex-col gap-2 rounded-md">
+        <div className="grid-item-6 h-[300px]   shadow-lg flex flex-col gap-2 rounded-md justify-between">
           <img src={property6} alt="" className="max-h-[200px]"/>
           <h3 className="font-bold text-xl text-main-dark-blue mx-2">
             600.000€
