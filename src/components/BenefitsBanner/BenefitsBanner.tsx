@@ -28,7 +28,7 @@ const BenefitsBanner = () => {
           <div className="benefit-2-ctn flex mt-5 gap-5 items-center">
             <TbSquareNumber2 className="text-4xl rounded-md bg-main-light-blue text-white " />
             <p className="text-sm md:text-md lg:text-xl text-main-light-blue font-bold">
-              We take care for every single thing that the <br /> buyer need to
+              We take care for every single thing that the buyer need to
               complete
             </p>
           </div>
@@ -43,9 +43,8 @@ const BenefitsBanner = () => {
           <div className="benefit-4-ctn flex mt-5 gap-5 items-center">
             <TbSquareNumber4 className="text-4xl rounded-md bg-main-light-blue text-white " />
             <p className="text-sm md:text-md lg:text-xl text-main-light-blue font-bold">
-              We help the buyers to find the place without stress
-              <br />
-              and help them with paperwork
+              We help the buyers to find the place without stress and help them
+              with paperwork
             </p>
           </div>
         </div>
