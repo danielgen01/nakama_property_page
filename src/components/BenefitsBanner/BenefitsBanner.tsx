@@ -21,7 +21,7 @@ const BenefitsBanner = () => {
           <div className="benefit-1-ctn flex mt-5 gap-5 items-center">
             <TbSquareNumber1 className="text-4xl rounded-md bg-main-light-blue text-white " />
             <p className="text-sm md:text-md lg:text-xl text-main-light-blue font-bold">
-              We are not asking for any free
+              We are not asking for anything free
             </p>
           </div>
 
