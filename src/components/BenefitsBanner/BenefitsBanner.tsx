@@ -1,5 +1,11 @@
 import React from "react"
 import Benefits_pic from "../../assets/Benefits_pic.png"
+import {
+  TbSquareNumber1,
+  TbSquareNumber2,
+  TbSquareNumber3,
+  TbSquareNumber4,
+} from "react-icons/tb"
 
 const BenefitsBanner = () => {
   return (
@@ -12,41 +18,34 @@ const BenefitsBanner = () => {
           <h1 className="text-main-dark-blue text-xl font-bold lg:text-3xl text-center">
             Why we suit for you
           </h1>
-          <div className="benefit-1-ctn flex mt-5 gap-5">
-            <div className="px-5 rounded-md font-bold text-xl bg-main-light-blue text-white flex items-center">
-              1
-            </div>
+          <div className="benefit-1-ctn flex mt-5 gap-5 items-center">
+            <TbSquareNumber1 className="text-4xl rounded-md bg-main-light-blue text-white " />
             <p className="text-sm md:text-md lg:text-xl text-main-light-blue font-bold">
               We are not asking for any free
             </p>
           </div>
 
-          <div className="benefit-2-ctn flex mt-5 gap-5">
-            <div className="px-5 rounded-md font-bold text-xl bg-main-light-blue text-white flex items-center">
-              2
-            </div>
+          <div className="benefit-2-ctn flex mt-5 gap-5 items-center">
+            <TbSquareNumber2 className="text-4xl rounded-md bg-main-light-blue text-white " />
             <p className="text-sm md:text-md lg:text-xl text-main-light-blue font-bold">
-              We take care for every single thing that the buyer need to
+              We take care for every single thing that the <br /> buyer need to
               complete
             </p>
           </div>
 
-          <div className="benefit-3-ctn flex mt-5 gap-5">
-            <div className="px-5 rounded-md font-bold text-xl bg-main-light-blue text-white flex items-center">
-              3
-            </div>
+          <div className="benefit-3-ctn flex mt-5 gap-5 items-center">
+            <TbSquareNumber3 className="text-4xl rounded-md bg-main-light-blue text-white " />
             <p className="text-sm md:text-md lg:text-xl text-main-light-blue font-bold">
               We help landlord to register their license to government
             </p>
           </div>
 
-          <div className="benefit-4-ctn flex mt-5 gap-5">
-            <div className="px-5 rounded-md font-bold text-xl bg-main-light-blue text-white flex items-center">
-              4
-            </div>
+          <div className="benefit-4-ctn flex mt-5 gap-5 items-center">
+            <TbSquareNumber4 className="text-4xl rounded-md bg-main-light-blue text-white " />
             <p className="text-sm md:text-md lg:text-xl text-main-light-blue font-bold">
-              We help the buyers to find the place without stress and help them
-              with paperwork
+              We help the buyers to find the place without stress
+              <br />
+              and help them with paperwork
             </p>
           </div>
         </div>
