@@ -3,7 +3,7 @@ import React from "react"
 const Formbox = () => {
   return (
     <div className="form-ctn w-full h-full flex justify-center items-center">
-      <div className="form-box bg-white h-2/4 w-[80%] flex items-center flex-col rounded-md gap-5">
+      <div className="form-box bg-white h-2/4 w-[80%] lg:w-[40%] flex items-center flex-col rounded-md gap-5">
         <h3 className="text-main-light-blue font-bold mt-5 text-xl">
           What do you want to know... ?
         </h3>
