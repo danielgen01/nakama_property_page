@@ -10,7 +10,7 @@ import {
 const BenefitsBanner = () => {
   return (
     <div className="benefits-banner mt-10 w-screen flex justify-center">
-      <div className="banner-content grid grid-cols-1 place-items-center md:grid-cols-2  gap-5">
+      <div className="banner-content grid grid-cols-1 place-items-center md:grid-cols-2  gap-5 px-3">
         <div className="picture-ctn  justify-center order-2 md:order-1 hidden md:flex ">
           <img src={Benefits_pic} alt="" className="" />
         </div>
